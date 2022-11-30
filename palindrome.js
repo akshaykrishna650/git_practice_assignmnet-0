@@ -1,16 +1,11 @@
-let string="naman";
-function reverse (string){
-    let bag="";
-    for (let i=string.leagngth-1;i>=0;i--){
-        bag+=string[i];
-    }
-    return bag;
+let arr="afifa";
+bag="";
+for(i=arr.length-1;i>=0;i--){
+  bag=bag+arr[i];
 
 }
-let reversed=reverse(string);
-
-if (string==reversed){
-     console.log("palindrome");
+if(arr==bag){
+  console.log("Pallindrome");
 }else{
-    console.log("NA");
-}
+  console.log("Not Pallindrome");
+    }
