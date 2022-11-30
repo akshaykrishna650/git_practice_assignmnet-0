@@ -1,10 +1,14 @@
-function checkprime(num){
+let num=13;
+let count=0;
+let flag=false;
     for (let i=1;i<=num;i++){
-         if (num%i){
-              return true;
+         if (num%i==0){
+              count++;
          }
-    }
-     return false;
-}
+    
+     if(count==2){
+       flag=true;
+     }
 
-checkprime(13);
+    }console.log(flag);
+
