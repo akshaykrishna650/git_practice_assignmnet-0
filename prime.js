@@ -10,5 +10,5 @@ let flag=false;
        flag=true;
      }
 
-    }console.log(flag);
+  
 
